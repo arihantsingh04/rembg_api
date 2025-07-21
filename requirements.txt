@@ -2,3 +2,4 @@ rembg
 flask
 pillow
 onnxruntime-gpu
+gunicorn
