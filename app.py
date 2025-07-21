@@ -21,14 +21,6 @@ def remove_bg():
 
     return send_file(img_io, mimetype='image/png')
 
-@app.route('/', methods=['GET'])
-def home():
-    return {
-        "message": "Welcome to the Background Remover API 🎉",
-        "usage": "Send a POST request to /remove-bg with an 'image' field in form-data."
-    }
-
-
 # ✅ Proper indentation
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
