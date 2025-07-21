@@ -3,3 +3,4 @@ flask
 pillow
 onnxruntime-gpu
 gunicorn
+requests
