@@ -1,4 +1,4 @@
 rembg
 flask
 pillow
-onnxruntime==1.16.3
+onnxruntime-gpu
